@@ -1,9 +1,9 @@
 <?php
 // Database connection settings
 $host = "localhost";
-$user = "root";  // Change if needed
-$pass = "";  // Change if needed
-$dbname = "my_database";
+$user = "root";  
+$pass = "";  
+$dbname = "my_db";
 
 // Connect to MySQL
 $conn = new mysqli($host, $user, $pass, $dbname);
